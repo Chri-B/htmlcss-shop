@@ -80,7 +80,7 @@
 }
 
 /* creazione sfondo orange quando si passa con mouse */
-.visibile:hover {
+.blocco:hover {
     background-color: orange;
 }
 /* creazione sfondo solo su smile + cursore che cambia quando si va sopra con mouse */
