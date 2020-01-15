@@ -8,6 +8,7 @@
     height: 400px;
     display: inline-block;
     position: relative;
+    border-radius: 2%;
 }
 /* creazione margine tra i due div */
 #two {
@@ -20,4 +21,41 @@
     position: absolute;
     top: 50px;
     left: 50px;
+}
+/* stilizzazione riquadro rosso per sconto */
+.sconto-red {
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* stilizzazione riquadro verde per sconto */
+.sconto-green {
+    background-color: green;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;;
+}
+/* stilizzazione testo dello sconto */
+.testo-sconto {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#sconto-9 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 10px;
 }
