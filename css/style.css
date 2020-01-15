@@ -1,6 +1,16 @@
 *{
     box-sizing: border-box;
 }
+/* colore sfondo intera pagina */
+body {
+    background-color: lightgreen;
+}
+/* stilizzazione titolo */
+h1 {
+    font-family: 'IM Fell Great Primer SC', serif;
+    color: darkblue;
+    font-size: 40px;
+}
 /* stilizzazione riquadro */
 .blocco {
     background-color: #ececec;
@@ -10,9 +20,18 @@
     position: relative;
     border-radius: 2%;
 }
+/* stilizzazione titolo articoli */
+.titolo {
+    font-family: 'IM Fell Great Primer SC', serif;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+    color: darkblue;
+}
 /* creazione margine tra i due div */
 #two {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 /* stilizzazione immagine */
 .immagine {
@@ -78,14 +97,21 @@
     display: block;
     cursor: pointer;
 }
-
 /* creazione sfondo orange quando si passa con mouse */
 .blocco:hover {
     background-color: orange;
 }
-/* creazione sfondo solo su smile + cursore che cambia quando si va sopra con mouse */
-
+/* posizione smile centrata */
 a {
     position: absolute;
     left: 5px;
+}
+/* stilizzazione credits */
+#credits {
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+    color: white;
 }
