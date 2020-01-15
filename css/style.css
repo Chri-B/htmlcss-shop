@@ -30,6 +30,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    border-radius: 10%;
 }
 /* stilizzazione riquadro verde per sconto */
 .sconto-green {
@@ -50,7 +51,7 @@
     top: 5px;
     left: 5px;
 }
-
+/* stilizzazione testo dello sconto a una cifra */
 #sconto-9 {
     font-size: 20px;
     font-style: italic;
@@ -58,4 +59,22 @@
     position: absolute;
     top: 5px;
     left: 10px;
+}
+/* stilizzazione cuore a scomparsa */
+.smile {
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.visibile:hover {
+    background-color: orange;
+}
+
+.visibile-1:hover {
+    background-color: yellow;
+    cursor: pointer;
 }
