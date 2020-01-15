@@ -63,18 +63,29 @@
 /* stilizzazione cuore a scomparsa */
 .smile {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 130px;
     font-size: 30px;
-    width: 30px;
-    height: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    background-color: yellow;
+    padding: 0;
+    display: none;
+}
+/* quando passo col mouse su div "BLOCCO" viene reso visibile il div "SMILE" */
+.blocco:hover .smile {
+    display: block;
+    cursor: pointer;
 }
 
+/* creazione sfondo orange quando si passa con mouse */
 .visibile:hover {
     background-color: orange;
 }
+/* creazione sfondo solo su smile + cursore che cambia quando si va sopra con mouse */
 
-.visibile-1:hover {
-    background-color: yellow;
-    cursor: pointer;
+a {
+    position: absolute;
+    left: 5px;
 }
