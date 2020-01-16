@@ -120,8 +120,5 @@ a {
 #credits {
     font-family: 'IM Fell Great Primer SC', serif;
     font-style: italic;
-    position: absolute;
-    bottom: 0;
-    right: 1%;
     color: white;
 }
