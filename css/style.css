@@ -6,7 +6,8 @@
 }
 /* colore sfondo intera pagina */
 body {
-    background-color: lightgreen;
+    background-image: url("https://www.tokkoro.com/picsup/2705389-star-wars-4k-hd-amazing-wallpaper.jpg");
+    background-size: cover;
 }
 /* centraggio elementi nella pagina */
 .container {
@@ -16,7 +17,7 @@ body {
 /* stilizzazione titolo */
 h1 {
     font-family: 'IM Fell Great Primer SC', serif;
-    color: darkblue;
+    color: orange;
     font-size: 40px;
     text-align: center;
 }
@@ -36,7 +37,7 @@ h1 {
     top: 10px;
     left: 50px;
     font-size: 20px;
-    color: darkblue;
+    color: blue;
 }
 /* creazione margine tra i due div */
 #two {
@@ -90,26 +91,23 @@ h1 {
     left: 10px;
 }
 /* stilizzazione cuore a scomparsa */
-.smile {
+.cuore {
     position: absolute;
     bottom: 5px;
     left: 130px;
     font-size: 30px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: yellow;
     padding: 0;
     display: none;
+    color: black;
 }
 /* quando passo col mouse su div "BLOCCO" viene reso visibile il div "SMILE" */
-.blocco:hover .smile {
+.blocco:hover .cuore {
     display: block;
     cursor: pointer;
 }
-/* creazione sfondo orange quando si passa con mouse */
+/* creazione sfondo riquadro articolo quando si passa con mouse */
 .blocco:hover {
-    background-color: orange;
+    background-color: rgba(255, 255, 0, 0.2);
 }
 /* posizione smile centrata */
 a {
@@ -121,4 +119,8 @@ a {
     font-family: 'IM Fell Great Primer SC', serif;
     font-style: italic;
     color: white;
+}
+/* creazione colore rosso quando si passa con mouse */
+.cuore:hover {
+    color: red;
 }
