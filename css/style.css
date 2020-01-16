@@ -1,15 +1,24 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 /* colore sfondo intera pagina */
 body {
     background-color: lightgreen;
+}
+/* centraggio elementi nella pagina */
+.container {
+    width: 950px;
+    margin: 0 auto;
 }
 /* stilizzazione titolo */
 h1 {
     font-family: 'IM Fell Great Primer SC', serif;
     color: darkblue;
     font-size: 40px;
+    text-align: center;
 }
 /* stilizzazione riquadro */
 .blocco {
@@ -34,9 +43,10 @@ h1 {
     margin-top: 15px;
 }
 /* stilizzazione immagine */
-img {
+.blocco img {
     width: 200px;
     height: 300px;
+    object-fit: contain;
     position: absolute;
     top: 50px;
     left: 50px;
